@@ -1,3 +1,6 @@
 [submodule "simple_mem_benchmark"]
 	path = simple_mem_benchmark
 	url = https://github.com/annnnnnnnnnie/simple_mem_benchmark.git
+[submodule "ccbench"]
+	path = ccbench
+	url = https://github.com/ucb-bar/ccbench.git
