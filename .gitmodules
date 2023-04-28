@@ -4,3 +4,9 @@
 [submodule "ccbench"]
 	path = ccbench
 	url = https://github.com/ucb-bar/ccbench.git
+[submodule "riscv-benchmarks"]
+	path = riscv-benchmarks
+	url = https://github.com/ucb-bar/riscv-benchmarks.git
+[submodule "kvmtool"]
+	path = kvmtool
+	url = https://github.com/kvmtool/kvmtool.git
