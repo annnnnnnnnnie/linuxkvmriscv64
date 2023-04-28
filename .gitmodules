@@ -10,3 +10,6 @@
 [submodule "kvmtool"]
 	path = kvmtool
 	url = https://github.com/kvmtool/kvmtool.git
+[submodule "dtc"]
+	path = dtc
+	url = git://git.kernel.org/pub/scm/utils/dtc/dtc.git
