@@ -13,3 +13,6 @@
 [submodule "dtc"]
 	path = dtc
 	url = git://git.kernel.org/pub/scm/utils/dtc/dtc.git
+[submodule "benchmark-riscv"]
+	path = benchmark-riscv
+	url = https://gitlab.laas.fr/matana/bench/benchmark-riscv.git
