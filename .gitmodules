@@ -16,3 +16,9 @@
 [submodule "benchmark-riscv"]
 	path = benchmark-riscv
 	url = https://gitlab.laas.fr/matana/bench/benchmark-riscv.git
+[submodule "benchmark-mem-latency"]
+	path = benchmark-mem-latency
+	url = https://github.com/sifive/benchmark-mem-latency.git
+[submodule "memlatency"]
+	path = memlatency
+	url = https://github.com/sudarsunkannan/memlatency.git
