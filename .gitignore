@@ -3,3 +3,5 @@
 /br_output/*
 !/br_output/upload_build_archifects.sh
 !/br_output/download_build_archifects.sh
+
+membenches.zip
