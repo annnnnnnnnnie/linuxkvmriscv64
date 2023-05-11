@@ -7,3 +7,5 @@ BUCKET=membenches-build
 echo "downloading ${target} from s3 bucket"
 
 aws s3api get-object --bucket $BUCKET --key $target $BASEDIR/$target
+
+unzip $target
