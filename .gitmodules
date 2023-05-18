@@ -23,3 +23,6 @@
 [submodule "memlatency"]
 	path = memlatency
 	url = https://github.com/sudarsunkannan/memlatency.git
+[submodule "phdmembench/memory_access"]
+	path = phdmembench/memory_access
+	url = ./phdmembench/memory_access/
