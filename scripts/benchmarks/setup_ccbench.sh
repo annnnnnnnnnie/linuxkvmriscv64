@@ -13,3 +13,5 @@ cp $PWD/ccbench/caches/run_caches_host.sh $dest
 cp $PWD/ccbench/caches/run_caches_guest_32.sh $dest
 cp $PWD/ccbench/caches/run_caches_guest_64.sh $dest
 cp $PWD/ccbench/caches/run_caches_guest_128.sh $dest
+cp $PWD/ccbench/caches/run_caches_guest_4096.sh $dest
+cp $PWD/ccbench/caches/run_caches_guest_8192.sh $dest
