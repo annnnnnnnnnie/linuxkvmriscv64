@@ -5,8 +5,10 @@ mkdir -p $PWD/overlay/root/mem_benches/ccbench
 dest=$PWD/overlay/root/mem_benches/ccbench/
 
 cp $PWD/ccbench/strided/strided $dest
-cp $PWD/ccbench/strided/run_strided_guest.sh $dest
 cp $PWD/ccbench/strided/run_strided_host.sh $dest
+cp $PWD/ccbench/strided/run_strided_guest_1024_1.sh $dest
+cp $PWD/ccbench/strided/run_strided_guest_4096_16.sh $dest
+cp $PWD/ccbench/strided/run_strided_guest_8192_32.sh $dest
 
 cp $PWD/ccbench/caches/caches $dest
 cp $PWD/ccbench/caches/run_caches_host.sh $dest
