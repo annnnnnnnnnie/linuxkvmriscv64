@@ -10,3 +10,6 @@ cp $PWD/ccbench/strided/run_strided_host.sh $dest
 
 cp $PWD/ccbench/caches/caches $dest
 cp $PWD/ccbench/caches/run_caches_host.sh $dest
+cp $PWD/ccbench/caches/run_caches_guest_32.sh $dest
+cp $PWD/ccbench/caches/run_caches_guest_64.sh $dest
+cp $PWD/ccbench/caches/run_caches_guest_128.sh $dest
