@@ -5,6 +5,7 @@ export PATH=$PATH_TO_RISCV_TOOLCHAIN/bin:$PATH
 export ARCH=riscv
 export CROSS_COMPILE=riscv64-unknown-linux-gnu-
 
+rm -rf overlay/
 mkdir -p overlay/root/
 
 sh ./scripts/setup_overlay.sh

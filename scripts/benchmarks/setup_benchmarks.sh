@@ -1,6 +1,6 @@
 echo "setup benchmarks"
-echo "pwd="$PWD
 
+rm -rf $PWD/overlay/root/mem_benches/
 mkdir -p $PWD/overlay/root/mem_benches/
 
 sh $PWD/scripts/benchmarks/setup_memlatency.sh
