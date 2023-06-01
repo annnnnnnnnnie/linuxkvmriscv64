@@ -5,11 +5,12 @@ export PATH=$PATH_TO_RISCV_TOOLCHAIN/bin:$PATH
 export ARCH=riscv
 export CROSS_COMPILE=riscv64-unknown-linux-gnu-
 
+echo "removing built overlay"
 rm -rf overlay/
 mkdir -p overlay/root/
 
 sh ./scripts/setup_overlay.sh
-sh ./scripts/benchmarks/setup_benchmarks.sh
+sh ./scripts/setup_benchmarks.sh
 
 echo "rebuild"
 cd $BR
